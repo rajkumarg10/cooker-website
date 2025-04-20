@@ -1,0 +1,69 @@
+<!-- estimate.html (new page for calculator) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estimate Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="estimate-calculator">
+        <h1>Get an Estimate</h1>
+        <form id="estimate-form">
+            <label for="service">Service Type</label>
+            <select id="service">
+                <option value="1000">Civil Contracting (₹1000)</option>
+                <option value="1500">Interior Work (₹1500)</option>
+                <option value="500">Material Supply (₹500)</option>
+                <option value="300">Labor Hire (₹300)</option>
+            </select>
+
+            <label for="quantity">Quantity (in units)</label>
+            <input type="number" id="quantity" required>
+
+            <button type="button" onclick="calculateEstimate()">Calculate Estimate</button>
+        </form>
+
+        <p id="estimate-result"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Cooker Construction</p>
+    </footer>
+
+    <script>
+        function calculateEstimate() {
+            var serviceCost = document.getElementById('service').value;
+            var quantity = document.getElementById('quantity').value;
+            var total = serviceCost * quantity;
+            document.getElementById('estimate-result').innerText = "Total Estimate: ₹" + total;
+        }
+    </script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6805211574f3ee190b279ac1/1ipa0if92';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</body>
+</html>
