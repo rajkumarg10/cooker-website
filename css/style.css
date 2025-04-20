@@ -157,3 +157,25 @@ form button:hover {
     vertical-align: middle;
     margin-right: 10px;
 }
+
+/* Add this to your CSS file */
+.whatsapp-btn {
+    display: flex;
+    align-items: center;
+    background-color: #25d366; /* WhatsApp Green */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    width: max-content;
+}
+
+.whatsapp-btn img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E; /* Darker green for hover */
+}
