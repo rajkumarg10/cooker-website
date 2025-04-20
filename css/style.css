@@ -41,3 +41,36 @@ footer {
   text-align: center;
   padding: 1em;
 }
+
+/* About Page Styles */
+.about {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.about h2 {
+    font-size: 1.8em;
+    margin-top: 25px;
+}
+
+.about p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.about ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
