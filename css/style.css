@@ -162,7 +162,7 @@ form button:hover {
 /* Floating WhatsApp Button */
 .whatsapp-btn-floating {
     position: fixed;
-    bottom: 500px;
+    bottom: 400px;
     right: 20px;
     z-index: 100;
     display: flex;
