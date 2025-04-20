@@ -179,3 +179,23 @@ form button:hover {
 .whatsapp-btn:hover {
     background-color: #128C7E; /* Darker green for hover */
 }
+
+/* Floating WhatsApp Button */
+.whatsapp-btn-floating {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    background-color: #25d366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.whatsapp-btn-floating img {
+    width: 30px;
+    margin-right: 10px;
+}
